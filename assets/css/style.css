@@ -1,0 +1,273 @@
+/* GERAIS */
+* {
+    font-family: "roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* NAVBAR */
+header, .navbar {
+    background-color: #fca61d;
+    position: relative;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav a.nav-link {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.navbar-nav{
+    margin-right: 30px !important;
+}
+
+.nav-item{
+    padding-left: 25px !important;
+}
+
+#logo {
+    width: 60px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/*APRESENTAÇÃO*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentation{
+    display: flex;
+    margin-top: 140px !important;
+    justify-content: space-between;
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #676767;
+}
+
+.apresentation__image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.apresentation__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentation__content__name,
+.apresentation__content__dev{
+    margin-bottom: 50px;
+}
+
+.apresentation__button {
+    border: solid red;
+}
+
+/*SOBRE*/
+
+.about{
+    display: flex;
+    margin-top: 140px !important;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    background-color: #676767;
+    padding: 40px;
+    height: 450px;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 0px 25px;
+}
+
+.about__content__about,
+.about__content__dev,
+.about__content__text {
+    margin-bottom: 35px;
+}
+
+.about__button{
+    position: absolute;
+    border: solid red;
+    bottom: 12%;
+    right: 12%;
+}
+
+.about__button__curriculum{
+    width: 150px;
+}
+
+/*PROJETOS*/
+
+.myProjects{
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    border: solid red;
+    display: flex;
+    margin-top: 140px;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    height: 300px;
+}
+
+.project__image{
+    width: 50%;
+}
+
+.project__image img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.project__content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.project__description,
+.project__description__title{
+    margin-bottom: 20px
+}
+
+.project__button{
+    position: absolute;
+    margin-top: 20%;
+}
+
+.project__technologies{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*SKILLS*/
+
+.mySkills{
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    background-color: #676767;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.skills__name {
+    padding: 20px;
+    text-align: center;
+}
+
+.skills__name img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+/*CERTIFICADOS*/
+
+.certificates {
+    text-align: center;
+    padding: 10rem 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.certificates__header {
+    margin: 0 auto 3rem auto;
+    font-size: 4rem;
+}
+
+.certificates__header>p {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.certificates-section {
+    margin-bottom: 3%;
+}
+
+.certificates__title {
+    padding: 2rem 0.5rem;
+}
+
+.certificates-image{
+    width: 400px;
+    padding: 25px;
+}
+
+
+/*SETAS CARROSSEL*/
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-next {
+    right: -25px;
+}
