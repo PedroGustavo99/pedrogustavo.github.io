@@ -1,4 +1,13 @@
 /* GERAIS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #161616;
+}
+
 * {
     font-family: "roboto", sans-serif;
     padding: 0;
@@ -18,11 +27,8 @@ p, li {
 /* NAVBAR */
 header, .navbar {
     background-color: #fca61d;
-    position: relative;
-}
-
-.nav-link {
-    color: #fff;
+    position: fixed;
+    z-index: 1;
 }
 
 #nav-container {
@@ -33,6 +39,7 @@ header, .navbar {
 .navbar-nav a.nav-link {
     color: #fff; 
     text-decoration: none; 
+    font-size: 20px;
 }
 
 .navbar-nav{
@@ -69,46 +76,74 @@ header, .navbar {
 
 .apresentation{
     display: flex;
-    margin-top: 140px !important;
+    margin-top: 120px !important;
     justify-content: space-between;
     padding: 50px;
     width: 70%;
     margin: 0 auto;
-    background-color: #676767;
+    background-color: #2b2b2b;
+    border-radius: 5px;
 }
 
 .apresentation__image img {
-    width: 280px;
-    height: 280px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
+    margin-left: 25px;
 }
 
 .apresentation__content {
     display: flex;
     flex-direction: column;
+    width: 40%;
+}
+
+.apresentation__content__name{
+    font-size: 25px;
+    color: #fff;
+}
+
+.apresentation__content__dev{
+    font-size: 55px;
+    color: #fff;
 }
 
 .apresentation__content__name,
 .apresentation__content__dev{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .apresentation__button {
-    border: solid red;
+    display: flex;
+    gap: 15px;
+}
+
+.apresentation__button__social {
+    padding: 2px 15px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.apresentation__button__social a {
+    text-decoration: none;
+    color: #161616;
 }
 
 /*SOBRE*/
 
 .about{
     display: flex;
-    margin-top: 140px !important;
+    margin-top: 80px !important;
     width: 70%;
     margin: 0 auto;
     position: relative;
     justify-content: space-between;
-    background-color: #676767;
+    background-color: #2b2b2b;
+    border-radius: 5px;
     padding: 40px;
-    height: 450px;
+    height: 350px;
 }
 
 .about__content{
@@ -116,23 +151,47 @@ header, .navbar {
     flex-direction: column;
     width: 55%;
     padding: 0px 25px;
+    width: 70%;
+}
+
+.about__content__about{
+    font-size: 25px;
+    color: #fff;
+}
+
+.about__content__dev{
+    font-size: 35px;
+    color: #fff;
+}
+
+.about__content__text{
+    font-size: 16px;
+    color: #fff;
 }
 
 .about__content__about,
 .about__content__dev,
 .about__content__text {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .about__button{
     position: absolute;
-    border: solid red;
     bottom: 12%;
     right: 12%;
 }
 
 .about__button__curriculum{
-    width: 150px;
+    padding: 2px 15px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.about__button__curriculum a {
+    text-decoration: none;
+    color: #161616;
 }
 
 /*PROJETOS*/
@@ -140,12 +199,14 @@ header, .navbar {
 .myProjects{
     text-align: center;
     position: relative;
-    margin-top: 140px;
+    margin-top: 80px;
     margin-bottom: 50px;
+    font-size: 30px;
+    color: #fff;
 }
 
 .projects {
-    border: solid red;
+    background-color: #2b2b2b;
     display: flex;
     margin-top: 140px;
     margin: auto;
@@ -169,17 +230,50 @@ header, .navbar {
     width: 50%;
     padding: 25px;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-.project__description,
+.project__technologies{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.fa-js {
+    font-size: 2em;
+    color: #FFD43B;
+}
+
 .project__description__title{
-    margin-bottom: 20px
+    color: #fff;
+    font-size: 20px;
+}
+
+.project__description__content{
+    color: #fff;
+    font-size: 16px;
+
+}
+.project__description__title{
+    margin-bottom: 20px;
 }
 
 .project__button{
     position: absolute;
     margin-top: 20%;
+}
+
+.project__button__project{
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 170px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.project__button__project a{
+    text-decoration: none;
+    color: #161616;
 }
 
 .project__technologies{
@@ -261,7 +355,6 @@ header, .navbar {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 10;
 }
 
 .slick-prev {
@@ -270,4 +363,65 @@ header, .navbar {
 
 .slick-next {
     right: -25px;
+}
+
+/*CONTATO*/
+
+.contact{
+    background-color: #676767;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    height: 220px;
+}
+
+.title__contact{
+    text-align: center;
+    padding: 20px;
+}
+
+.contact__content{
+    border: solid green;
+}
+
+.contact__item{
+    padding: 10px 20px;
+}
+
+.contact__links{
+    position: absolute;
+    border: solid red;
+    width: 300px;
+    bottom: 25px;
+    right: 10px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #676767;
+    margin-top: 140px;
+    padding: 2%;
+}
+
+.footer__social-midia {
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-midia a {
+    color: var(--footer-color);
+    padding: 0px 5px;
+}
+
+.footer__paragraph {
+    color: var(--footer-color);
+    margin: 0; 
+    padding: 0 10px;
 }

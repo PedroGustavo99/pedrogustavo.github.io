@@ -51,9 +51,9 @@
                         <div class="navbar-nav ml-auto">
                             <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
                             <a href="#" class="nav-item nav-link" id="curriculo-menu">Curriculo</a>
-                            <a href="#" class="nav-item nav-link" id="contato-menu">Contato</a>
-                            <a href="#" class="nav-item nav-link" id="projetos-menu">Projetos</a>
-                            <a href="#" class="nav-item nav-link" id="certificados-menu">Certificados</a>
+                            <a href="#go-projects" class="nav-item nav-link" id="projetos-menu">Projetos</a>
+                            <a href="#go-certificates" class="nav-item nav-link" id="certificados-menu">Certificados</a>
+                            <a href="#go-contact" class="nav-item nav-link" id="contato-menu">Contato</a>
                         </div>
                     </div>
                 </nav>
@@ -86,7 +86,7 @@
         <!--Fim Apresentação-->
 
         <!--Inicio Sobre mim-->
-        <section class="about">
+        <section class="about" id="Sobre-mim">
             <div class="about__content">
                 <h3 class="about__content__about">
                     Sobre mim
@@ -101,6 +101,7 @@
                     Praesentium id in tempore deserunt odio nemo nam exercitationem quae voluptates qui! Voluptatum
                     voluptatibus autem quo aliquid doloremque quaerat et veniam beatae nemo! Consequuntur sapiente culpa
                     quis debitis laudantium ut?
+                    Praesentium id in tempore deserunt odio nemo nam exercitationem quae voluptates qui! Voluptatu.
                 </p>
             </div>
             <div class="about__button">
@@ -112,7 +113,7 @@
         <!--Fim Sobre mim-->
 
         <!--Inicio Projetos-->
-        <section>
+        <section id="go-projects">
             <div class="myProjects">
                 <h1 class="myProjects__title">
                     Projetos
@@ -124,11 +125,7 @@
                 </div>
                 <div class="project__content">
                     <div class="project__technologies">
-                        <div class="project__technologies__icons">
-                            icons
-                            icons
-                            icons
-                        </div>
+                        <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
                     </div>
                     <div class="project__description">
                         <h3 class="project__description__title">
@@ -145,7 +142,7 @@
                             <a href="#">Ver projeto</a>
                         </button>
                         <button class="project__button__project">
-                            <a href="#">Ver Repositório</a>
+                            <a href="#">Repositório</a>
                         </button>
                     </div>
                 </div>
@@ -198,7 +195,7 @@
         <!--Fim Skills-->
 
         <!--Inicio Certificados-->
-        <section class="certificates">
+        <section class="certificates" id="go-certificates">
             <div class="certificates__header">
                 <h2>Meus Certificados:</h2>
                 <!--<p>Clique e descubra mais...</p>-->
@@ -257,7 +254,7 @@
         <!--Fim Certificados-->
 
         <!--Inicio Contato-->
-        <section class="contact">
+        <section class="contact" id="go-contact">
             <div class="title__contact">
                 Contato
             </div>
@@ -277,12 +274,28 @@
                     </div>
                 </div>
                 <div class="contact__links">
-                    
+                    <a href="#">
+                        <img src="#" alt="Imagem linkedin">
+                    </a>
+                    <a href="#">
+                        <img src="#" alt="Imagem Git">
+                    </a>
                 </div>
             </div>
         </section>
         <!--Fim Contato-->
     </main>
+    <!--Rodapé-->
+    <footer class="footer">
+        <p class="footer__paragraph"> Criado por Pedro Junior </p>
+        <div class="footer__social-midia">
+            <a href="#" target="_blank"><span class="fa fa-github"></span></a>
+            <a href="#" target="_blank"><span
+                    class="fa fa-linkedin"></span></a>
+            <a href="#" target="_blank"><span
+                    class="fa fa-instagram"></span></a>
+        </div>
+    </footer>
 
     <!--SCRIPT-->
     <script src="./assets/js/slickCarousel.js"></script>
