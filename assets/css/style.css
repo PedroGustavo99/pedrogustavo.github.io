@@ -4,8 +4,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #161616;
+body {
+    background-color: #161616 !important;
 }
 
 * {
@@ -14,7 +14,7 @@ body{
     margin: 0;
     box-sizing: border-box;   
 }
-
+    
 .container {
     padding: 70px 0;
 }
@@ -34,6 +34,11 @@ header, .navbar {
 #nav-container {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.bars{
+    color: #fff;
+    font-size: 2rem;
 }
 
 .navbar-nav a.nav-link {
@@ -63,10 +68,6 @@ header, .navbar {
     color: #fff;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
-}
-
 /*APRESENTAÇÃO*/
 
 .main {
@@ -79,38 +80,45 @@ header, .navbar {
     margin-top: 120px !important;
     justify-content: space-between;
     padding: 50px;
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     background-color: #2b2b2b;
     border-radius: 5px;
 }
 
+.apresentation__image{
+    display: flex;
+    align-items: center;
+
+}
+
 .apresentation__image img {
-    width: 270px;
-    height: 270px;
+    width: 14rem;
     border-radius: 50%;
-    margin-left: 25px;
 }
 
 .apresentation__content {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
+    margin-right: 20px;
 }
 
 .apresentation__content__name{
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 1.5rem;
     color: #fff;
 }
 
 .apresentation__content__dev{
-    font-size: 55px;
+    /*font-size: 55px;*/
+    font-size: 3rem;
     color: #fff;
 }
 
 .apresentation__content__name,
 .apresentation__content__dev{
-    margin-bottom: 40px;
+    margin-bottom: 8%;
 }
 
 .apresentation__button {
@@ -121,7 +129,7 @@ header, .navbar {
 .apresentation__button__social {
     padding: 2px 15px;
     border-radius: 5px;
-    width: 120px;
+    width: 40%;
     font-size: 18px;
     text-decoration: none;
 }
@@ -136,7 +144,7 @@ header, .navbar {
 .about{
     display: flex;
     margin-top: 80px !important;
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     position: relative;
     justify-content: space-between;
