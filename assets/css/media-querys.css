@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    
+
     .apresentation{
         flex-direction: column;
         align-items: center;
@@ -57,7 +60,7 @@
     /*Sobre mim*/
 
     .about {
-        height: auto;
+        height: auto;  
     }
     .about__content{
         flex-wrap: wrap;
@@ -90,4 +93,8 @@
         text-decoration: none;
         color: #161616;
     }
+}
+
+@media screen and (max-width: 480px) {
+
 }
