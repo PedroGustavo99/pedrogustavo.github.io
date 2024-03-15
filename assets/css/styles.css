@@ -72,8 +72,18 @@ header,
     color: #fff;
 }
 
+.navbar-brand img{
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
 .navbar-brand:hover {
     color: #fff;
+}
+
+.nav-item a{
+    font-size: 1.4rem !important;
+    color: #161616;
 }
 
 /*APRESENTAÇÃO*/
@@ -100,8 +110,9 @@ header,
 }
 
 .apresentation__image img {
-    width: 14rem;
-    border-radius: 50%;
+    width: 15em;
+    height: 15rem;
+    border-radius: 100%;
 }
 
 .apresentation__button {
@@ -250,6 +261,7 @@ header,
     width: 400px;
     height: 300px;
     padding: 25px;
+    border-radius:9%;
 }
 
 .carousel-certificates {
@@ -358,6 +370,7 @@ header,
     color: var(--footer-color);
     margin: 0; 
     padding: 0 10px;
+    color: #161616;
 }
 
 .footer__social-midia i{
