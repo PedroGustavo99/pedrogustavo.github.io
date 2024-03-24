@@ -28,7 +28,7 @@
 
 <body>
     <!--Inicio Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="topo">
         <a class="navbar-brand" href="index.html">
             <img src="/assets/img/logo.png" alt="" width="40px" height="40px" alt="" class="d-inline-block align-top">
         </a>
@@ -303,8 +303,19 @@
     </footer>
     <!--Fim Rodapé-->
 
+    <!--botão voltar ao topo-->
+    <div data-scroll="suave" data-anima="scroll">
+        <a href="#topo">
+            <div class="topo">
+                <i class="fa-solid fa-circle-up"></i>
+            </div>
+        </a>
+    </div>
+
     <!--SCRIPT-->
     <script src="./assets/js/slickCarousel.js"></script>
+    <script src="./assets/js/scroll-animation.js"></script>
+
 </body>
 
 </html>

@@ -56,3 +56,11 @@
         margin-top: 1rem;
     }
 }
+
+/* Ocultar as setas de navegação em dispositivos móveis */
+@media (max-width: 767px) {
+    .slick-prev,
+    .slick-next {
+        display: none;
+    }
+}
