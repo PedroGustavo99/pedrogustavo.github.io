@@ -32,10 +32,12 @@ p, li {
 
 /* NAVBAR */
 
-header,
 .navbar {
     background-color: #FF940D;
-    position: fixed;
+    z-index: 1;
+    height: 70px;
+    min-height: 70px;
+    padding: 0 15px;
 }
 
 #nav-container {
@@ -103,6 +105,10 @@ header,
 .show-button .topo{
     right: 20px;
     transition: .4s all;
+}
+
+.topo i {
+    font-size: 3.2rem;
 }
 
 /*APRESENTAÇÃO*/
