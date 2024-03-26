@@ -64,3 +64,9 @@
     }
 }
 
+@media (max-width: 767px) {
+    #topo .navbar-brand img {
+        width: 30px; /* Tamanho da imagem para telas menores */
+        height: 30px;
+    }
+}
