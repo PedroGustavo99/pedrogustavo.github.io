@@ -35,18 +35,6 @@ p, li {
 header,
 .navbar {
     background-color: #FF940D;
-    z-index: 1;
-    height: 70px;
-    min-height: 70px;
-    padding: 0 15px;
-}
-
-.navbar-collapse {
-    background-color: #FF940D; /* Defina a cor de fundo das opções de navegação */
-}
-
-.navbar-collapse .navbar-nav .nav-link {
-    color: #444;
 }
 
 #nav-container {
