@@ -57,10 +57,10 @@
     }
 }
 
-/* Ocultar as setas de navegação em dispositivos móveis */
 @media (max-width: 767px) {
     .slick-prev,
     .slick-next {
-        display: none;
+        display: none !important; /* Adicionando !important para garantir que a regra seja aplicada */
     }
 }
+
