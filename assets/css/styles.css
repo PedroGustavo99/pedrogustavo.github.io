@@ -221,6 +221,11 @@ header,
     font-size: 2em;
 }
 
+.btn-orange{
+    background-color: #FF940D;
+    border-color: #FF940D;
+}
+
 /*SKILLS*/
 
 .mySkills{
