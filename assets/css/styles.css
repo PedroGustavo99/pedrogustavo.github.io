@@ -190,7 +190,7 @@ header,
 }
 
 .image-container {
-    height: 16rem;
+    height: 100%;
     overflow: hidden;
 }
 
