@@ -1,72 +1,123 @@
 @media screen and (max-width: 576px) {
+
+    /*APRESENTAÇÃO*/
     .apresentation {
         max-width: 95%;
     }
-    .about{
+
+    /*SOBRE*/
+    .about {
         max-width: 95%;
     }
-    .container{
+
+    .container {
         max-width: 95%;
     }
+
     .fa-sharp {
         font-size: 3.0em;
     }
 }
 
 @media screen and (max-width: 990px) {
-    .projects__button{
+
+    /*PROJETOS*/
+    .projects__button {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 510px) {
-    .contact__content{
+
+    /*CONTATO*/
+    .contact__content {
         font-size: 1.1rem;
         padding: 5px 0;
         margin-left: -30px;
     }
-    .apresentation__title{
+
+    /*APRESENTAÇÃO*/
+    .apresentation__title {
         font-size: 1.3rem;
         padding: 5px 0;
-        margin-left: -30px;
+        justify-content: center;
+        align-items: center;
     }
-    .apresentation__content{
+
+    .apresentation__content {
         font-size: 2rem;
         padding: 5px 0;
+        justify-content: center;
+    }
+
+    .apresentation__title,
+    .apresentation__content,
+    .buttons {
+        text-align: center;
+        align-items: center;
+    }
+
+    /*SOBRE MIM*/
+    .about__content {
         margin-left: -30px;
     }
-    .buttons{
-        margin-left: -30px;
-    }
-    .about__content{
-        margin-left: -30px;
-    }
-    .about__content__title{
+
+    .about__content__title {
         font-size: 1.3rem;
     }
-    .about__content__title__2{
+
+    .about__content__title__2 {
         font-size: 2rem;
         padding: 1rem 0;
     }
+
+    /*SKILLS*/
+    .skills__container i {
+        font-size: 3rem;
+    }
+
+    /*NAVBAR*/
+    .nav-item a {
+        font-size: 1.2rem !important;
+        color: #161616;
+    }
+
+    /*CONTATO*/
+    .contact__information{
+        font-size: 1rem;
+    }
+    .contact__item i {
+        font-size: 2rem;
+    }
+    .contact__links i {
+        font-size: 1.8rem;
+    }
+}
 }
 
 @media screen and (max-width: 992px) {
+
+    /*APRESENTAÇÃO*/
     .apresentation__image img {
         flex-direction: column;
-        margin-top: 1rem;
+        margin-top: 1.2rem;
     }
 }
 
 @media (max-width: 767px) {
+
+    /*SETAS CARROSSEL*/
     .slick-prev,
     .slick-next {
-        display: none !important; /* Adicionando !important para garantir que a regra seja aplicada */
+        display: none !important;
     }
 }
 
 @media (max-width: 767px) {
+
+    /*NAVBAR*/
     #topo .navbar-brand img {
-        width: 30px; /* Tamanho da imagem para telas menores */
+        width: 30px;
         height: 30px;
     }
 }

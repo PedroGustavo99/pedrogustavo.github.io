@@ -50,7 +50,7 @@ header,
 .navbar-nav a.nav-link {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4rem
 }
 
 .navbar-nav {
@@ -162,6 +162,11 @@ header,
     position: relative;
 }
 
+.orange_text{
+    color: #FF940D;
+}
+
+
 .icone-aspas {
     position: absolute;
     top: 0;
@@ -187,6 +192,18 @@ header,
 
 .projects {
     background-color: #2b2b2b;
+}
+
+.projects__repositories {
+    font-size: 1rem;
+    color: #FF940D;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.projects__repositories a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .image-container {
