@@ -80,7 +80,7 @@ header,
 }
 
 .nav-item a{
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
     color: #161616;
 }
 
@@ -199,6 +199,7 @@ header,
     color: #FF940D;
     font-style: italic;
     opacity: 0.6;
+    margin-top: -2rem;
 }
 
 .projects__repositories a {
