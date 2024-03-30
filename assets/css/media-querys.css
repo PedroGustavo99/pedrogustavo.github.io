@@ -92,6 +92,9 @@
     .contact__links i {
         font-size: 1.8rem;
     }
+    .contact__item{
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 992px) {
