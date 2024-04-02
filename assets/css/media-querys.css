@@ -44,6 +44,13 @@
         align-items: center;
     }
 
+    #texto {
+        text-align: center;
+    }
+    #texto__dev{
+        text-align: center;
+    }
+
     .apresentation__content {
         font-size: 2rem;
         padding: 5px 0;

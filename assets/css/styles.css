@@ -125,6 +125,18 @@ header,
     border-radius: 5px;
 }
 
+/* .apresentation__title{
+    visibility: hidden;
+} */
+
+.apresentation__content__fullStack{
+    visibility: hidden;
+}
+
+.apresentation__content{
+    visibility: hidden;
+}
+
 .apresentation__image {
     display: flex;
     align-items: center;
@@ -166,7 +178,6 @@ header,
 .orange_text {
     color: #FF940D;
 }
-
 
 .icone-aspas {
     position: absolute;
@@ -462,8 +473,8 @@ header,
 .projects__repositories,
 .mySkills,
 .certificates__header,
-.carousel-certificates,
-.contact
+.slick-carousel,
+.container__contact
 {
     visibility: hidden;
 }
