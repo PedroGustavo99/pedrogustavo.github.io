@@ -11,7 +11,9 @@ sr.reveal('.mySkills', { duration: 1000 });
 sr.reveal('.certificates__header', { duration: 1000 });
 sr.reveal('.slick-carousel', { duration: 1000 });
 sr.reveal('.carousel-title__contact', { duration: 1000 });
-sr.reveal('.container__contact', { duration: 1000 });
+
+window.src = ScrollReveal({ reset: true });
+src.reveal('.container__contact', { duration: 1000 });
 
 /*Animação skills*/
 var elements = document.querySelectorAll('.skills__container .skills__name');
