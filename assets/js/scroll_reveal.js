@@ -1,19 +1,17 @@
 /*Animação para aparecer as divs*/
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
-sr.reveal('.apresentation', { duration: 1000 });
-sr.reveal('.about', { duration: 1000 });
-sr.reveal('.myProjects', { duration: 1000 });
-sr.reveal('.projects__container', { duration: 1000 });
-sr.reveal('.project', { duration: 1000 });
-sr.reveal('.projects__repositories', { duration: 1000 });
-sr.reveal('.mySkills', { duration: 1000 });
-sr.reveal('.certificates__header', { duration: 1000 });
-sr.reveal('.slick-carousel', { duration: 1000 });
-sr.reveal('.carousel-title__contact', { duration: 1000 });
-
-window.src = ScrollReveal({ reset: true });
-src.reveal('.container__contact', { duration: 1000 });
+sr.reveal('.apresentation', { duration: 1000, once: true });
+sr.reveal('.about', { duration: 1000, once: true });
+sr.reveal('.myProjects', { duration: 1000, once: true });
+sr.reveal('.projects__container', { duration: 1000, once: true });
+sr.reveal('.project', { duration: 1000, once: true });
+sr.reveal('.projects__repositories', { duration: 1000, once: true });
+sr.reveal('.mySkills', { duration: 1000, once: true });
+sr.reveal('.certificates__header', { duration: 1000, once: true });
+sr.reveal('.slick-carousel', { duration: 1000, once: true });
+sr.reveal('.carousel-title__contact', { duration: 1000, once: true });
+sr.reveal('.container__contact', { duration: 1000, once: true });
 
 /*Animação skills*/
 var elements = document.querySelectorAll('.skills__container .skills__name');

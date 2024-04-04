@@ -462,19 +462,3 @@ header,
 .footer__social-midia i {
     font-size: 1.5rem;
 }
-
-/*ANIMAÇÃO SCROLL_REVEAL*/
-
-.apresentation,
-.about,
-.myProjects,
-.projects__container,
-.project,
-.projects__repositories,
-.mySkills,
-.certificates__header,
-.slick-carousel,
-.container__contact
-{
-    visibility: hidden;
-}
