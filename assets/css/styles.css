@@ -23,7 +23,7 @@ body {
 
 p,
 li {
-    color: #444;
+    color: #161616;
     font-size: 14px;
 }
 
@@ -83,6 +83,7 @@ header,
 .nav-item a {
     font-size: 1.2rem !important;
     color: #161616;
+    font-weight: 500;
 }
 
 /*VOLTAR AO TOPO BUTTOM*/
