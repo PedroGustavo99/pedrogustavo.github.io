@@ -225,8 +225,8 @@ header,
 }
 
 .image-container img {
-    width: 100%;
-    height: 100%;
+    width: 36rem;
+    height: 18rem;;
 }
 
 .projects__button {
@@ -254,6 +254,7 @@ header,
 .btn-orange {
     background-color: #FF940D;
     border-color: #FF940D;
+    color: #FFFFFF;
 }
 
 /*SKILLS*/
