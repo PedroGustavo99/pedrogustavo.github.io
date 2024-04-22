@@ -126,10 +126,6 @@ header,
     border-radius: 5px;
 }
 
-/* .apresentation__title{
-    visibility: hidden;
-} */
-
 .apresentation__content__fullStack{
     visibility: hidden;
 }
@@ -176,8 +172,31 @@ header,
     position: relative;
 }
 
-.orange_text {
-    color: #FF940D;
+/* .about__button{
+    border: #FF940D solid;
+    font-weight: 500;
+    padding: 2px 15px;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 18px;
+    text-decoration: none;
+} */
+
+.apresentation__button__curriculum {
+    border: #FF940D solid;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 2px 15px;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.apresentation__button__curriculum:hover {
+    background-color: #FF940D;
+    color: #FFFFFF;
 }
 
 .icone-aspas {
@@ -194,6 +213,10 @@ header,
     opacity: 0.6;
 }
 
+.about__content i{
+    margin-top: 1rem;
+    font-size: 5rem;
+}
 /*PROJETOS*/
 
 .myProjects {
@@ -253,8 +276,15 @@ header,
 }
 
 .btn-orange {
-    background-color: #FF940D;
-    border-color: #FF940D;
+    background-color: #fc9619;
+    border-color: #fc9619;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #e78309;
+    border-color: #e78309;
     color: #FFFFFF;
 }
 
