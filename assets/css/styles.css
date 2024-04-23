@@ -172,30 +172,20 @@ header,
     position: relative;
 }
 
-/* .about__button{
-    border: #FF940D solid;
-    font-weight: 500;
-    padding: 2px 15px;
-    border-radius: 5px;
-    width: 40%;
-    font-size: 18px;
-    text-decoration: none;
-} */
-
 .apresentation__button__curriculum {
-    border: #FF940D solid;
+    border:#007bff solid;
     background-color: transparent;
     color: #FFFFFF;
-    padding: 2px 15px;
     border-radius: 5px;
     width: 40%;
     font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    padding: 2px 15px;
 }
 
 .apresentation__button__curriculum:hover {
-    background-color: #FF940D;
+    background-color: #007bff;
     color: #FFFFFF;
 }
 
